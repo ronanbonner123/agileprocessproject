@@ -10,7 +10,7 @@ def read_integer_between_numbers(prompt, mini, maximum):
             else:
                 print(f"Numbers from {mini} to {maximum} only.")
         except ValueError:
-            print("Sorry -numbor olny please")
+            print("Sorry number olny please")
 
 
 def read_nonempty_string(prompt):
@@ -28,7 +28,7 @@ def read_integer(prompt):
             if users_input >= 0:
                 return users_input
         except ValueError:
-            print("Sorry -numbor olny please")
+            print("Sorry number olny please")
 
 
 def runners_data():
