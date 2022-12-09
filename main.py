@@ -60,7 +60,7 @@ def race_venues():
     for line in lines:
         races_location.append(line.strip("\n"))
     return races_location
-
+#hello
 
 def winner_of_race(id, time_taken):
     quickest_time = min(time_taken)
