@@ -31,8 +31,8 @@ def read_integer(prompt):
 def runners_data():
     with open("runners.txt") as input:
         lines = input.readlines()
-        runners_name = []
-        runners_id = []
+    runners_name = []
+    runners_id = []
     for line in lines:
         split_line = line.split(",")
         runners_name.append(split_line[0])
